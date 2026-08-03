@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  margin:0;
+  padding:30px;
+  background:white;
+}
+
+h2 {
+  color:#D6296D;
+  margin:0px;
+}
+
+.title-1 {
+  text-align:center;
+  font-size:30px;
+}
+
+.notification-1 {
+  text-align:center;
+  color:red;
+  margin:20px;
+  font-size:18px;
+  font-style:italic;
+}
+
+.grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,200px);
+  gap:20px;
+  justify-content:center;
+}
+
+.card {
+  padding:20px;
+  background:#E0E0E0;
+  border-radius:20px;
+  text-align:center;
+  box-shadow:4px 4px 8px #999;
+}
+
+.card-link {
+  text-decoration:none;
+  color:black;
+}
+
+.title {
+  font-size:24px;
+  font-weight:bold;
+}
+
+.description {
+  font-size:18px;
+  color:#555;
+}
+
+button{
+  display:block;
+  margin:24px auto 0 auto;
+  
+  padding:12px;
+  font-size:16px;
+  border:none;
+  border-radius:6px;
+  background:#1976d2;
+  color:white;
+  cursor:pointer;
+  font-family:Arial,sans-serif;
+  font-weight:bold;
+  text-align:center;
+}
+
+.button-container {
+  display:flex;
+  justify-content:center;
+  margin-top:24px;
+}
+
+#userInfo {
+  margin-top:12px;
+  text-align:center;
+  font-size:16px;
+  color:#555;
+  font-style:italic;
+}
+
+@media(max-width:600px) {
+  h2 {
+    font-size:20px;
+    margin:0px;
+  }
+
+  .notification-1 {
+    font-size:14px;
+    margin:0px 10px;
+  }
+
+  .button-container{
+    margin-top:10px;
+    margin-bottom:15px;
+  }
+
+  .title-1 {
+    font-size:20px; 
+  }
+
+  .card {
+    padding:10px 20px;
+  }
+  
+}
