@@ -87,7 +87,7 @@ const CATEGORIES = [
   {
     title: "นิสิต",
     description: "Students",
-    url: "https://script.google.com/a/macros/chula.ac.th/s/AKfycbzSCEi6aDdEXuvm_w9--GP_AtlZ1noYkfr-DQFc4ZY9zBZ07pGwzPauCYmUTrrkhlI/exec",
+    url: "https://script.google.com/a/macros/chula.ac.th/s/AKfycbwUS7Zmasb_J6USTMKTq1Kff6_aKCQ18prfijhhKazvx65vmo8znx-Y68ZBpfFA_GHe/exec",
     enabled: true
   },
   {
