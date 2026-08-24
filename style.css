@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   margin:0;
-  padding:30px;
+  padding:20px;
   background:white;
 }
 
@@ -149,7 +149,7 @@ button{
   }
 
   .card-1 {
-    width: 100%;
+    width: 80%;
     justify-content: center;
   }
   
