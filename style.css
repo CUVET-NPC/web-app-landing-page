@@ -45,14 +45,13 @@ h2 {
   text-align:center;
   box-shadow:4px 4px 8px #999;
 
-  width: 60%;
+  width: max-content;
   margin:0 auto;
 
   display: grid;
   grid-template-columns: max-content 10px max-content;
   row-gap: 10px;
   align-items: center;
-  justify-content: center;
 }
 
 .card-link {
@@ -150,7 +149,8 @@ button{
   }
 
   .card-1 {
-    width: max-width;
+    width: 100%;
+    justify-content: center;
   }
   
 }
