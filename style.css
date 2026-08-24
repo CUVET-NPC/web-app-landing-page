@@ -45,7 +45,7 @@ h2 {
   text-align:center;
   box-shadow:4px 4px 8px #999;
 
-  width: max-content;
+  width: 60%;
   margin:0 auto;
 
   display: grid;
@@ -146,6 +146,10 @@ button{
 
   .card {
     padding:10px 20px;
+  }
+
+  .card-1 {
+    width: 100%;
   }
   
 }
