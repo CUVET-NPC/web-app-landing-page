@@ -52,6 +52,7 @@ h2 {
   grid-template-columns: max-content 10px max-content;
   row-gap: 10px;
   align-items: center;
+  justify-content: center;
 }
 
 .card-link {
