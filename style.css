@@ -160,5 +160,8 @@ button{
     justify-content: center;
     margin: 0;
   }
+
+  .emergency-note{
+    font-size:0.75rem
   
 }
