@@ -83,6 +83,32 @@ button{
   font-style:italic;
 }
 
+.info-row {
+  display: grid;
+  grid-template-columns: 1fr 30px 2.5fr;
+  margin: 10px 0;
+  align-items: start;
+  line-height: 1.25;
+  font-size: 20px;
+  color: #4D4C4C;
+}
+
+.label {
+  text-align: right;
+  font-weight: bold;
+  padding-right: 8px;
+}
+
+.colon {
+  text-align: center;
+}
+
+.value {
+  text-align: left;
+  padding-left: 8px;
+  word-break: break-word;
+}
+
 @media(max-width:600px) {
   h2 {
     font-size:20px;
