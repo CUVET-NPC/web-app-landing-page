@@ -85,9 +85,10 @@ button{
 
 .info-row {
   display: grid;
-  grid-template-columns: 1fr 30px 2.5fr;
+  grid-template-columns: 1fr 30px 1fr;
+  border:medium solid black;
   margin: 10px 0;
-  align-items: start;
+  align-items: center;
   line-height: 1.25;
   font-size: 20px;
   color: #4D4C4C;
