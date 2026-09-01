@@ -60,8 +60,12 @@ loginButton.onclick = async () => {
   } catch (error) {
     // console.error(error);
     console.error("Firebase Auth error:", error); // Added
-    document.getElementById("userInfo").textContent = // Added
-    "Error: " + error.code + " | " + error.message; // Added
+
+    alert( // Added
+      "Firebase Auth Error\n\n" + // Added
+      "Code: " + error.code + "\n" + // Added
+      "Message: " + error.message // Added
+    ); // Added
   }
 };
 
