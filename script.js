@@ -38,7 +38,7 @@ provider.setCustomParameters({
 console.log("Firebase initialized successfully!");
 
 // 5. Handle redirect result
-getRedirectResult(auth).catch(console.error);
+// getRedirectResult(auth).catch(console.error);
 
 // 6. Setup login button
 const loginButton = document.getElementById("loginButton");
