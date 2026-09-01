@@ -5,8 +5,9 @@ import { initializeApp }
 import {
   getAuth,
   GoogleAuthProvider,
-  signInWithRedirect,
-  getRedirectResult,
+  signInWithPopup, // Added
+//  signInWithRedirect,
+//  getRedirectResult,
   onAuthStateChanged,
   signOut
 }
@@ -44,17 +45,21 @@ const loginButton = document.getElementById("loginButton");
 
 loginButton.onclick = async () => {
   try {
-    const result = await signInWithRedirect(auth, provider);
-    const user = result.user;
+    const result = await signInWithPopup(auth, provider); // Added
+    // const result = await signInWithRedirect(auth, provider);
+    // const user = result.user;
 
     console.log("Signed in:");
-    console.log(user.email);
+    // console.log(user.email);
+    console.log(result.user.email); // Added
 
     document.getElementById("userInfo").textContent =
-      "Signed in as: " + user.email;
+    //  "Signed in as: " + user.email;
+      "Signed in as: " + result.user.email; // Added
   
   } catch (error) {
-    console.error(error);
+    // console.error(error);
+    console.error("Firebase Auth error:", error); // Added
   }
 };
 
